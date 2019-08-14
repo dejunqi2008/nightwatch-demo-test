@@ -1,6 +1,7 @@
 
 module.exports = {
     '@tags': ['google'],
+    '@disabled': true,
     'Google advanced search test': function (browser) {
         const page = browser.page.googleAdvancedSearch();
         page
